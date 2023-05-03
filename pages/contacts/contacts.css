@@ -1,20 +1,20 @@
 *{
     font-family: 'Raleway', sans-serif;}
-header .container{
+ .container{
     width: 1300px;}
-header .top{
+ .top{
     display: flex;    justify-content: space-between;    align-items: center;    margin:40px 0 40px 0;}
-header .pages{
+ .pages{
     display: flex;}
-header .pages h6{
+ .pages h6{
     font-size: 15px;    margin-top: 7px;}
-header .pages h6:hover{
+ .pages h6:hover{
     color: #6E9C9F;    cursor: pointer;}
-header .pages h6:not(:last-child) {
+ .pages h6:not(:last-child) {
     margin-right: 40px;}
-header .pn{
+ .pn{
     display: flex;}
-header .pn h6{
+ .pn h6{
     display: flex;    margin: 4px 40px 0 10px;}
 section .container{
     width: 1300px;}
@@ -45,6 +45,22 @@ section .writeToUs input{
 section .writeToUs label{
     display: flex;    margin-bottom: 35px;}
 section .btn{
-    display: flex;    justify-content: start; border: none}
+    display: flex;    justify-content: start; border: none; margin-bottom: 100px}
 section .btn button{
     padding: 30px 60px;    background: #6E9C9F;    color: white;    font-size: 20px;    border: none;    outline:none;}
+footer .menu{
+    background-color: #F1EADC;
+}
+footer .container{
+    padding-top:90px ;
+    padding-bottom: 104px;
+}
+footer .end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+footer .sn{
+    display: flex;
+    margin-bottom: 30px;
+}
