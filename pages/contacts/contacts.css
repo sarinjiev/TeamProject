@@ -45,9 +45,20 @@ section .writeToUs input{
 section .writeToUs label{
     display: flex;    margin-bottom: 35px;}
 section .btn{
-    display: flex;    justify-content: start; border: none; margin-bottom: 100px}
+    display: flex;    justify-content: start; border: none;}
 section .btn button{
     padding: 30px 60px;    background: #6E9C9F;    color: white;    font-size: 20px;    border: none;    outline:none;}
+section .massage{
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+section .massage button{
+    padding: 30px 76px;
+    border: none;
+    background-color: #F1EADC;
+;
+}
+
 footer .menu{
     background-color: #F1EADC;
 }
