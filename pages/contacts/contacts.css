@@ -44,9 +44,9 @@ section .writeToUs input{
     padding:40px 400px 16px 0;    font-size: 20px;    border: 0;    border-bottom:1px solid #000000;    outline:none;}
 section .writeToUs label{
     display: flex;    margin-bottom: 35px;}
-section .btn{
+section .button{
     display: flex;    justify-content: start; border: none;}
-section .btn button{
+section .button button{
     padding: 30px 60px;    background: #6E9C9F;    color: white;    font-size: 20px;    border: none;    outline:none;}
 section .massage{
     margin-bottom: 80px;
