@@ -10,9 +10,6 @@ let name = document.querySelector(".name")
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault()
-
-
-
     const resetForm = () => {
         name.value = ""
         phone.value = ""
