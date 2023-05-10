@@ -10,23 +10,25 @@ let name = document.querySelector(".name")
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault()
+    let users = {
+        nickname: e.target[0].value,
+        email: e.target[1].value,
+        phone: e.target[2].value,
+        sand : e.target[3].value
+    }
     const resetForm = () => {
         name.value = ""
         phone.value = ""
         email.value = ""
         inputMassage.value = ""
     }
+
         fetch("http://localhost:8080/message" , {
             method: 'POST',
             headers:{
                 'Content-Type':'application/json'
             },
-            body: JSON.stringify({
-                nickname: e.target[0].value,
-                email: e.target[1].value,
-                phone: e.target[2].value,
-                sand : e.target[3].value
-            })
+            body: JSON.stringify(users)
         }) .then((res)=>{
             console.log(res )
             resetForm()

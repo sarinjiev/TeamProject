@@ -625,27 +625,16 @@
       "phone": "0506935393",
       "sand": "xczxczxczxczxczxc",
       "id": 8
+    },
+    {
+      "nickname": "asdsad",
+      "email": "sadasd@mail.com",
+      "phone": "",
+      "sand": "",
+      "id": 9
     }
   ],
   "cart": [
-    {
-      "id-item": 2,
-      "size": "s",
-      "colors": "yellow",
-      "id": 1
-    },
-    {
-      "id-item": 2,
-      "size": "s",
-      "colors": "blue",
-      "id": 2
-    },
-    {
-      "id-item": 2,
-      "size": "s",
-      "colors": "black",
-      "id": 3
-    },
     {
       "id": 4,
       "title": "SHORT SLEEVE POLO WITH LUREX",
@@ -751,6 +740,29 @@
       "password": "$2a$10$g64yeFaFiRmK29Iiddp5Ue.bHoAqVBljQjlZtftQRMCvnHzUl5UHy",
       "nickname": "Ruslan",
       "id": 1
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "name": "name.value",
+      "email": "email@gmail.com",
+      "phone": "0505935393",
+      "from": "asasds",
+      "city": "aasdasd",
+      "street": "street.value",
+      "home": "home.value",
+      "apartment": "apartment.value"
+    },
+    {
+      "name": "arsen",
+      "email": "arsen@gmail.com",
+      "phone": "0505935393",
+      "city": "osh",
+      "street": "oshskay",
+      "home": "3303",
+      "apartment": "111vip 02kg",
+      "id": 2
     }
   ]
 }
